@@ -1,0 +1,22 @@
+<Window x:Class="TodoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ToDo" Height="500" Width="450" WindowStartupLocation="CenterScreen">
+    <Grid Margin="15">
+        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Text="Список задач" FontSize="20" FontWeight="Bold" Foreground="CornflowerBlue" HorizontalAlignment="Center" Margin="0,0,0,10"/>
+        <ListBox x:Name="TaskList" Grid.Row="1" Margin="0,0,0,10" FontSize="14"/>
+        <TextBlock Grid.Row="2" Text="Новая задача:" FontWeight="Bold" Margin="0,0,0,5"/>
+        <Grid Grid.Row="3" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions><ColumnDefinition Width="*"/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions>
+            <TextBox x:Name="NewTaskBox" Margin="0,0,8,0" Padding="5" FontSize="14"/>
+            <Button Grid.Column="1" Content="Добавить" FontWeight="Bold" Padding="15,5" Click="AddTask_Click"/>
+        </Grid>
+        <StackPanel Grid.Row="4" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Удалить" Padding="10,5" Margin="0,0,10,0" Click="RemoveTask_Click"/>
+            <Button Content="Выполнено" Padding="10,5" Margin="0,0,10,0" Click="CompleteTask_Click"/>
+            <Button Content="Очистить" Padding="10,5" Margin="0,0,10,0" Click="ClearAll_Click"/>
+            <Button Content="Сортировка" Padding="10,5" Click="SortTasks_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

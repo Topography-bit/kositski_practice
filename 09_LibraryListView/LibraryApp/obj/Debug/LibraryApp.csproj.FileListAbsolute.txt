@@ -1,0 +1,16 @@
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\bin\Debug\LibraryApp.exe.config
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\bin\Debug\LibraryApp.exe
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\bin\Debug\LibraryApp.pdb
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\LibraryApp.csproj.AssemblyReference.cache
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\MainWindow.g.cs
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\App.g.cs
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\LibraryApp_MarkupCompile.cache
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\LibraryApp_MarkupCompile.lref
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\MainWindow.baml
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\LibraryApp.g.resources
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\LibraryApp.Properties.Resources.resources
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\LibraryApp.csproj.GenerateResource.cache
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\LibraryApp.csproj.CoreCompileInputs.cache
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\LibraryApp.exe
+C:\Users\Ghost\Downloads\practices_3\practices\09_LibraryListView\LibraryApp\obj\Debug\LibraryApp.pdb

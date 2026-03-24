@@ -1,0 +1,42 @@
+<Window x:Class="LibraryApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:LibraryApp.ViewModels"
+        Title="Библиотека книг" Height="600" Width="900" WindowStartupLocation="CenterScreen">
+    <Window.DataContext><vm:MainViewModel/></Window.DataContext>
+    <Grid Margin="10">
+        <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+        <Grid.ColumnDefinitions><ColumnDefinition Width="2*"/><ColumnDefinition Width="10"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="3" Text="Управление библиотекой книг" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+        <StackPanel Grid.Row="1" Grid.Column="0" Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBlock Text="Поиск:" VerticalAlignment="Center" Margin="0,0,10,0"/>
+            <TextBox Width="300" Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"/>
+        </StackPanel>
+        <Border Grid.Row="2" Grid.Column="0" BorderBrush="Gray" BorderThickness="1">
+            <ListView ItemsSource="{Binding FilteredBooks}" SelectedItem="{Binding SelectedBook}">
+                <ListView.View><GridView>
+                    <GridViewColumn Header="Название" Width="200" DisplayMemberBinding="{Binding Title}"/>
+                    <GridViewColumn Header="Автор" Width="180" DisplayMemberBinding="{Binding Author}"/>
+                    <GridViewColumn Header="Год" Width="80" DisplayMemberBinding="{Binding Year}"/>
+                    <GridViewColumn Header="Жанр" Width="120" DisplayMemberBinding="{Binding Genre}"/>
+                </GridView></ListView.View>
+            </ListView>
+        </Border>
+        <StackPanel Grid.Row="3" Grid.Column="0" Orientation="Horizontal" Margin="0,10,0,0">
+            <TextBlock Text="Всего: " FontWeight="Bold"/><TextBlock Text="{Binding Books.Count}"/>
+        </StackPanel>
+        <Border Grid.Row="1" Grid.RowSpan="3" Grid.Column="2" BorderBrush="Gray" BorderThickness="1" Padding="10">
+            <StackPanel>
+                <TextBlock Text="Управление" FontSize="16" FontWeight="Bold" Margin="0,0,0,15"/>
+                <TextBlock Text="Название:"/><TextBox Text="{Binding NewTitle, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+                <TextBlock Text="Автор:"/><TextBox Text="{Binding NewAuthor, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+                <TextBlock Text="Год:"/><TextBox Text="{Binding NewYear, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+                <TextBlock Text="Жанр:"/><TextBox Text="{Binding NewGenre, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,20"/>
+                <Button Content="Добавить" Command="{Binding AddBookCommand}" Margin="0,0,0,10" Height="35"/>
+                <Button Content="Редактировать" Command="{Binding EditBookCommand}" Margin="0,0,0,10" Height="35"/>
+                <Button Content="Удалить" Command="{Binding RemoveBookCommand}" Margin="0,0,0,10" Height="35"/>
+                <Button Content="Очистить" Command="{Binding ClearFieldsCommand}" Height="35"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
