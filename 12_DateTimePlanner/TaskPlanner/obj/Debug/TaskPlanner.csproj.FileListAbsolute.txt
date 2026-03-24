@@ -1,0 +1,16 @@
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\bin\Debug\TaskPlanner.exe.config
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\bin\Debug\TaskPlanner.exe
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\bin\Debug\TaskPlanner.pdb
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\TaskPlanner.csproj.AssemblyReference.cache
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\MainWindow.g.cs
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\App.g.cs
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\TaskPlanner_MarkupCompile.cache
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\TaskPlanner_MarkupCompile.lref
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\MainWindow.baml
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\TaskPlanner.g.resources
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\TaskPlanner.Properties.Resources.resources
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\TaskPlanner.csproj.GenerateResource.cache
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\TaskPlanner.csproj.CoreCompileInputs.cache
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\TaskPlanner.exe
+C:\Users\Ghost\Downloads\practices_3\practices\12_DateTimePlanner\TaskPlanner\obj\Debug\TaskPlanner.pdb
