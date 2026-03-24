@@ -1,0 +1,7 @@
+C:\Users\Ghost\Downloads\practices_3\practices\01_LinearProgram\LinearProgram\bin\Debug\LinearProgram.exe.config
+C:\Users\Ghost\Downloads\practices_3\practices\01_LinearProgram\LinearProgram\bin\Debug\LinearProgram.exe
+C:\Users\Ghost\Downloads\practices_3\practices\01_LinearProgram\LinearProgram\bin\Debug\LinearProgram.pdb
+C:\Users\Ghost\Downloads\practices_3\practices\01_LinearProgram\LinearProgram\obj\Debug\LinearProgram.csproj.AssemblyReference.cache
+C:\Users\Ghost\Downloads\practices_3\practices\01_LinearProgram\LinearProgram\obj\Debug\LinearProgram.csproj.CoreCompileInputs.cache
+C:\Users\Ghost\Downloads\practices_3\practices\01_LinearProgram\LinearProgram\obj\Debug\LinearProgram.exe
+C:\Users\Ghost\Downloads\practices_3\practices\01_LinearProgram\LinearProgram\obj\Debug\LinearProgram.pdb

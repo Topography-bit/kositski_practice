@@ -1,0 +1,7 @@
+C:\Users\Ghost\Downloads\practices_3\practices\05_Arrays\Arrays\bin\Debug\Arrays.exe.config
+C:\Users\Ghost\Downloads\practices_3\practices\05_Arrays\Arrays\bin\Debug\Arrays.exe
+C:\Users\Ghost\Downloads\practices_3\practices\05_Arrays\Arrays\bin\Debug\Arrays.pdb
+C:\Users\Ghost\Downloads\practices_3\practices\05_Arrays\Arrays\obj\Debug\Arrays.csproj.AssemblyReference.cache
+C:\Users\Ghost\Downloads\practices_3\practices\05_Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Ghost\Downloads\practices_3\practices\05_Arrays\Arrays\obj\Debug\Arrays.exe
+C:\Users\Ghost\Downloads\practices_3\practices\05_Arrays\Arrays\obj\Debug\Arrays.pdb

@@ -1,0 +1,56 @@
+<Window x:Class="RPGCreator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Создание персонажа RPG" Height="520" Width="620">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Margin="0,0,0,20">
+            <TextBlock Text="Имя персонажа:" FontWeight="Bold" FontSize="14"/>
+            <TextBox x:Name="NameTextBox" Margin="0,5,0,0" Height="25"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,0,0,20">
+            <TextBlock Text="Класс персонажа:" FontWeight="Bold" FontSize="14"/>
+            <RadioButton x:Name="WarriorRadio" Content="Воин" GroupName="Class" 
+                         Margin="0,5,0,0" IsChecked="True" Checked="ClassRadio_Checked"/>
+            <RadioButton x:Name="MageRadio" Content="Маг" GroupName="Class" Checked="ClassRadio_Checked"/>
+            <RadioButton x:Name="ArcherRadio" Content="Лучник" GroupName="Class" Checked="ClassRadio_Checked"/>
+            <RadioButton x:Name="ThiefRadio" Content="Вор" GroupName="Class" Checked="ClassRadio_Checked"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Margin="0,0,0,20">
+            <TextBlock Text="Навыки (выберите несколько):" FontWeight="Bold" FontSize="14"/>
+            <CheckBox x:Name="SmithCheck" Content="Кузнечное дело" Margin="0,5,0,0" 
+                      Checked="SkillCheck_Changed" Unchecked="SkillCheck_Changed"/>
+            <CheckBox x:Name="AlchemyCheck" Content="Алхимия"
+                      Checked="SkillCheck_Changed" Unchecked="SkillCheck_Changed"/>
+            <CheckBox x:Name="HerbalismCheck" Content="Зельеварение"
+                      Checked="SkillCheck_Changed" Unchecked="SkillCheck_Changed"/>
+            <CheckBox x:Name="LockpickCheck" Content="Взлом замков"
+                      Checked="SkillCheck_Changed" Unchecked="SkillCheck_Changed"/>
+            <CheckBox x:Name="StealthCheck" Content="Скрытность"
+                      Checked="SkillCheck_Changed" Unchecked="SkillCheck_Changed"/>
+            <TextBlock x:Name="PointsLabel" Text="Очки: 0/10" Margin="0,5,0,0" Foreground="Gray"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,0,0,20">
+            <Button x:Name="CreateButton" Content="Создать персонажа" 
+                    Width="150" Height="30" Click="CreateButton_Click"/>
+            <Button Content="Сбросить" Width="100" Height="30" Margin="10,0,0,0" Click="ResetButton_Click"/>
+            <Button Content="Случайный выбор" Width="150" Height="30" Margin="10,0,0,0" Click="RandomButton_Click"/>
+        </StackPanel>
+
+        <GroupBox Grid.Row="4" Header="Информация о персонаже">
+            <ScrollViewer>
+                <TextBlock x:Name="ResultTextBlock" TextWrapping="Wrap" Padding="10" FontSize="12"/>
+            </ScrollViewer>
+        </GroupBox>
+    </Grid>
+</Window>

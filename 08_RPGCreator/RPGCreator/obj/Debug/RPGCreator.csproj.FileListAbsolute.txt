@@ -1,0 +1,14 @@
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\bin\Debug\RPGCreator.exe.config
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\bin\Debug\RPGCreator.exe
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\bin\Debug\RPGCreator.pdb
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\RPGCreator.csproj.AssemblyReference.cache
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\MainWindow.baml
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\MainWindow.g.cs
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\App.g.cs
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\RPGCreator_MarkupCompile.cache
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\RPGCreator.g.resources
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\RPGCreator.Properties.Resources.resources
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\RPGCreator.csproj.GenerateResource.cache
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\RPGCreator.csproj.CoreCompileInputs.cache
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\RPGCreator.exe
+C:\Users\Ghost\Downloads\practices_3\practices\08_RPGCreator\RPGCreator\obj\Debug\RPGCreator.pdb
