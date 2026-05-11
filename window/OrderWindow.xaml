@@ -1,0 +1,67 @@
+﻿<Window x:Class="WpfOrderCalculator.OrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Окно заказа"
+        Height="360"
+        Width="440"
+        MinHeight="340"
+        MinWidth="420"
+        WindowStartupLocation="CenterOwner">
+    <Grid Margin="22">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <TextBlock x:Name="GreetingLabel"
+                   FontSize="18"
+                   FontWeight="SemiBold"
+                   TextWrapping="Wrap" />
+
+        <StackPanel Grid.Row="1" Margin="0,18,0,16">
+            <CheckBox x:Name="PizzaCheckBox"
+                      Content="Пицца Маргарита - 420 руб."
+                      Margin="0,0,0,10"
+                      FontSize="15"
+                      Checked="SelectionChanged"
+                      Unchecked="SelectionChanged" />
+            <CheckBox x:Name="PastaCheckBox"
+                      Content="Паста Карбонара - 360 руб."
+                      Margin="0,0,0,10"
+                      FontSize="15"
+                      Checked="SelectionChanged"
+                      Unchecked="SelectionChanged" />
+            <CheckBox x:Name="TeaCheckBox"
+                      Content="Чай с десертом - 240 руб."
+                      FontSize="15"
+                      Checked="SelectionChanged"
+                      Unchecked="SelectionChanged" />
+
+            <TextBlock x:Name="TotalLabel"
+                       Margin="0,24,0,0"
+                       FontSize="16"
+                       FontWeight="SemiBold"
+                       Text="Сумма: 0 руб." />
+        </StackPanel>
+
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right">
+            <Button Content="Детали"
+                    Width="82"
+                    Height="34"
+                    Margin="0,0,8,0"
+                    Click="DetailsButton_Click" />
+            <Button Content="Подтвердить"
+                    Width="112"
+                    Height="34"
+                    Margin="0,0,8,0"
+                    Click="ConfirmButton_Click" />
+            <Button Content="Отмена"
+                    Width="82"
+                    Height="34"
+                    Click="CancelButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
