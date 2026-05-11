@@ -1,0 +1,14 @@
+﻿@MessagesApi_HostAddress = http://localhost:5247
+
+POST {{MessagesApi_HostAddress}}/api/auth/register
+Content-Type: application/json
+
+{
+  "userName": "student",
+  "password": "123"
+}
+
+###
+
+GET {{MessagesApi_HostAddress}}/api/messages
+Accept: application/json
